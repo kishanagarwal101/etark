@@ -5,7 +5,7 @@ const http = require("http");
 const mongoose = require("mongoose");
 
 const authRoute = require("./routes/authRoutes");
-const uri = "mongodb+srv://kishan:abcd123@cluster0.vdidc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const uri = "mongodb+srv://"
 
 
 mongoose.connect(
